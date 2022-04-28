@@ -1,0 +1,192 @@
+/*backgroud image setting*/
+#home-body {
+  background-image: url("./images/faded.jpg");
+}
+#resume-body {
+  background-image: url("./images/Hpic.jpg");
+}
+
+#resume-section {
+  width: 800px;
+  margin: auto;
+}
+/* nav bar configuration */
+nav {
+  width: 800px;
+  height: 50px;
+  padding-left: 0;
+  padding-right: 100px;
+  margin: auto;
+  border-style: groove;
+  background-color: #ebe7e3;
+}
+
+nav li {
+  display: inline;
+  margin-left: 50px;
+  font-family: "Times New Roman", Times, serif;
+}
+.lpic {
+  margin-right: 200px;
+  padding-right: 20px;
+}
+
+nav a {
+  color: #777777;
+}
+nav ul {
+  list-style-type: none;
+}
+a:hover {
+  color: red;
+}
+
+/* Homepage style configuration*/
+/* picture size setting*/
+img[src="./images/lin.jpg"] {
+  padding-left: 308px;
+  width: 300px;
+  height: 400px;
+}
+/* self introduction content setting*/
+.me {
+  width: 600px;
+  height: 400px;
+  padding-left: 0px;
+  margin-left: 100px;
+  font-size: small;
+}
+/* picture and self introduciton display in flex style*/
+.row {
+  display: flex;
+}
+
+h1[class=" name"] {
+  font-family: sans-serif;
+}
+/*seprate self introduction and personal information by  delimiter*/
+.delimiter {
+  margin-left: 700px;
+  color: cadetblue;
+  font-weight: bolder;
+}
+/*personal information*/
+.aaa {
+  list-style: none;
+  font-style: oblique;
+  font-size: medium;
+}
+#phone {
+  word-spacing: 150px;
+}
+#email {
+  word-spacing: 160px;
+}
+#hobby {
+  word-spacing: 140px;
+}
+#activity {
+  word-spacing: 125px;
+}
+#goals {
+  word-spacing: 155px;
+}
+#objectives {
+  word-spacing: 112px;
+}
+
+/* Resume page style configuration*/
+/*header*/
+#name2,
+.info {
+  text-align: center;
+}
+.resume-head {
+  margin-top: 34px;
+  margin-bottom: 0px;
+  color: rgb(10, 82, 217);
+}
+/*resume content*/
+#profile {
+  width: 800px;
+}
+#skills {
+  margin-top: 0px;
+}
+.abc {
+  color: cadetblue;
+  font-weight: bold;
+}
+
+/* Course page style configuration*/
+/*search form, filter and sort drop menu display in flex style*/
+.container {
+  display: flex;
+  margin-left: 442.5px;
+}
+.search-wrapper,
+.sort-wrapper,
+.filter-wrapper {
+  margin-left: 50px;
+  margin-bottom: 20px;
+  font-weight: bolder;
+}
+.search-button {
+  font-weight: bolder;
+}
+/*table caption setting*/
+caption {
+  font-weight: bolder;
+  color: blue;
+  font-size: large;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+/*table size setting*/
+.course-table {
+  width: 53%;
+  margin: 0;
+  margin: auto;
+  border: 1px solid black;
+  border-collapse: collapse;
+  font-size: small;
+}
+
+/*table header setting*/
+.course-head > th {
+  height: 40px;
+  border: 1px solid black;
+  background-color: #04aa6d;
+}
+/* row data setting*/
+.course-row > td {
+  border: 1px solid black;
+}
+
+.course-row:nth-child(even) {
+  background-color: #d6eeee;
+}
+/*course image setting*/
+.cover {
+  width: 120px;
+  height: 150px;
+  padding: 10px;
+  margin: 10px;
+}
+.course-title,
+.course-number,
+.level {
+  width: 10%;
+}
+
+/*footer setting */
+footer {
+  background-color: #777;
+  text-align: center;
+  color: white;
+  width: 800px;
+  height: 20px;
+  padding-left: 0;
+  margin: auto;
+  margin-top: 60px;
+  padding-right: 100px;
+}
